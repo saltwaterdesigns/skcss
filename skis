@@ -1,0 +1,165 @@
+@import url("https://assets.snappykraken.com/global/css/utilities.css");@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+.ht-bo-exiting{
+font-family:'Roboto Condensed'
+;line-height:1.8em;
+background-color:#fff;
+color:#000;
+padding:2rem;
+text-align:center;
+min-height:400px;
+display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;
+align-items:center;
+margin:1rem auto
+}
+.ht-bo-exiting .ht-inner{
+width:100%
+}
+.ht-bo-exiting h2{
+font:900 48px 'Roboto Condensed' !important
+}
+.ht-bo-exiting p{
+font:100 22px/36px 'Roboto Condensed' !important
+;color:#A7A7AA
+;margin:1rem 0 !important;
+padding:0 !important;
+text-transform:none !important;
+text-decoration:none !important;
+background:none !important;
+border:none !important;
+width:100% !important;
+height:auto !important}
+.ht-bo-exiting p.ht-small{
+font:100 16px/30px 'Roboto Condensed' !important
+}
+.ht-bo-exiting .ht-form{
+display:-webkit-box !important;
+display:-ms-flexbox !important;
+display:flex !important
+}
+@media (max-width: 1023px){
+.ht-bo-exiting .ht-form{
+display:block !important
+}
+}
+.ht-bo-exiting .ht-form .ht-input{
+background-color:#fff !
+important;color:#000 !important;
+font:100 20px 'Roboto Condensed' !important;
+letter-spacing:.1em;
+margin:1rem auto !important;
+-webkit-box-sizing:border-box !important;
+box-sizing:border-box !important;
+width:100% !important;
+padding:0 1em !important;
+border:1px solid #000 !important;
+height:60px !important;
+vertical-align:middle !important
+}
+.ht-bo-exiting .ht-form .ht-input::-webkit-input-placeholder{
+color:#000 !important
+}
+.ht-bo-exiting .ht-form .ht-input:-ms-input-placeholder{
+color:#000 !important
+}
+.ht-bo-exiting .ht-form .ht-input::-ms-input-placeholder{
+color:#000 !important
+}
+.ht-bo-exiting .ht-form .ht-input::placeholder{
+color:#000 !important
+}.ht-bo-exiting .ht-form .ht-input.error,.ht-bo-exiting .ht-form .ht-input:focus,.ht-bo-exiting .ht-form .ht-input:active{
+border:2px solid #000 !important;
+-webkit-box-shadow:none;
+box-shadow:none;
+outline:none
+}
+@media (min-width: 1024px){
+.ht-bo-exiting .ht-form .ht-input{
+width:30% !important
+}
+}
+.ht-bo-exiting .ht-button{
+background-color:#000 !important;
+color:#fff !important;
+font:700 20px 'Roboto Condensed' !important;
+margin:1rem auto !important;
+-webkit-box-sizing:border-box !important;
+box-sizing:border-box !important;
+width:100% !important;
+height:60px !important;
+vertical-align:middle !important;
+padding:0 1em !important;
+border:0 !important
+}
+@media (min-width: 1024px){
+.ht-bo-exiting .ht-button{
+width:24% !important
+}
+.tooltip-inner{
+background-color:#444
+}
+.bs-tooltip-auto[x-placement^=top] .arrow::before,.bs-tooltip-top .arrow::before{
+border-top-color:#444
+}
+.confirmation .hero{
+background:#000;
+height:15vw
+}
+.confirmation .hero h1{c
+olor:#fff;
+ont:55px/82.5px 'Roboto Condensed'
+}
+@media (max-width: 767px){
+.confirmation .hero h1{
+font:35px/52.5px 'Roboto Condensed'
+}
+}
+@media (max-width: 767px){
+.confirmation .hero{height:20vw
+}
+}
+@media (max-width: 575px){
+.confirmation .hero{height:30vw
+}
+}@media (max-width: 420px){
+.confirmation .hero{height:50vw
+}
+}
+.confirmation .content{
+color:#000
+}
+.confirmation .content h1{
+font:400 40px/60px 'Roboto Condensed'
+}
+.confirmation .content p{
+font-family:'Roboto Condensed';
+font-size:30px;
+color:#000
+}
+.confirmation a,.confirmation .btn{
+-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out
+}
+confirmation .btn{
+font:700 24px 'Roboto Condensed';
+border-radius:0;
+padding:1rem 1.8rem
+}
+@media (max-width: 767px){
+.confirmation .btn{
+width:100%
+}
+}
+@media (max-width: 575px){
+.confirmation .btn{
+padding:1rem .5rem
+}
+}
+.confirmation .btn-primary{
+background:#000;
+color:#fff;
+border:1px solid #000
+}
+.confirmation .btn-primary:hover{
+background:#fff;
+color:#000;
+border:1px solid #000
+}
